@@ -1,0 +1,10 @@
+<div class="col-md-6 col-md-offset-3">
+  <%= simple_form_for @product do |f| %>
+    <%= f.input :title %>
+    <%= f.input :description %>
+    <%= f.input :image_url %>
+    <%= f.input :price %>
+    <!-- <%= select(:price, :id, [[10,1],[11,2]]) %> -->
+    <%= f.button :submit %>
+  <% end %>
+</div>
